@@ -6,17 +6,17 @@
 </template>
 
 <script setup>
-useHead({
-  title: 'Projects',
-  htmlAttrs: {
-    lang: 'en',
-  },
-  link: [
-    {
-      rel: 'icon',
-      type: 'image/png',
-      href: '/favicon.ico',
+  useHead({
+    title: 'Projects',
+    htmlAttrs: {
+      lang: 'en',
     },
-  ],
-});
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon.ico',
+      },
+    ],
+  });
 </script>

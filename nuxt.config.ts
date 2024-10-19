@@ -5,5 +5,13 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/eslint']
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxt/eslint',
+    '@nuxtjs/color-mode',
+    'nuxt-headlessui'
+  ],
+  colorMode: {
+      classSuffix: ''
+    }
 })
