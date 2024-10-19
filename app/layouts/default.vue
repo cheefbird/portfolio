@@ -24,7 +24,7 @@ useHead({
     },
     {
       rel: 'stylesheet',
-      href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
+      href: 'https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans&display=swap',
       crossorigin: '',
     },
   ],
@@ -33,6 +33,11 @@ useHead({
 
 <style>
 body {
-  font-family: 'Roboto';
+  font-family: 'Fira Sans';
+}
+.fira-mono {
+  font-family: 'Fira Mono', monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 </style>
